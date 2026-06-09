@@ -12,5 +12,9 @@ describe("Gilded Rose", function() {
     expect(items[0].sell_in).toEqual(9);
   });
 
-
+  it("normal item degrades in quality 2x after sell in date", function() {
+    items = [ new Item("Normal Item", 0, 10) ];
+    update_quality();
+    expect(items[0].quality).toEqual(8);
+  });
 });
