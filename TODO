@@ -8,7 +8,7 @@
 // 7. Sulfuras: quality never changes (always 80) -> passed
 // 8. Sulfuras: sell_in never changes -> passed
 // 9. Backstage pass: quality increases by 1 when sell_in > 10 -> passed
-// 10. Backstage pass: quality increases by 2 when sell_in <= 10
-// 11. Backstage pass: quality increases by 3 when sell_in <= 5
+// 10. Backstage pass: quality increases by 2 when sell_in <= 10 -> passed
+// 11. Backstage pass: quality increases by 3 when sell_in <= 5 -> passed
 // 12. Backstage pass: quality drops to 0 after concert (sell_in < 0)
 // 13. Conjured: quality degrades twice as fast as normal items
