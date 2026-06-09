@@ -1,0 +1,14 @@
+// TODO:
+// 1. Normal item: quality degrades by 1 per day -> passed
+// 2. Normal item: sell_in decreases by 1 per day
+// 3. Normal item: once sell_in < 0, quality degrades twice as fast
+// 4. Quality is never negative
+// 5. Aged Brie: quality increases by 1 per day
+// 6. Quality never exceeds 50
+// 7. Sulfuras: quality never changes (always 80)
+// 8. Sulfuras: sell_in never changes
+// 9. Backstage pass: quality increases by 1 when sell_in > 10
+// 10. Backstage pass: quality increases by 2 when sell_in <= 10
+// 11. Backstage pass: quality increases by 3 when sell_in <= 5
+// 12. Backstage pass: quality drops to 0 after concert (sell_in < 0)
+// 13. Conjured: quality degrades twice as fast as normal items
